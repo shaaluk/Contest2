@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.navbar{
+    background-color: black;
+    padding-right: 25px;
+    padding-left: 15px;
+    padding: 20px;
+    position:fixed;
+    width: 100%;
+    top: 0px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.left a{
+    color: white;
+    padding-left: 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+li{ 
+    list-style: none;
+    display: inline-block;
+
+}
+li a{
+    color: white;
+    font-size: 18px;
+    margin-right: 25px;
+    text-decoration: none;
+    padding-right: 30px;
+}
+#library{
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+}
+
+li a:hover{
+    color: blue;
+}
+.heading{
+    margin-top: 60px;
+}
+h1{
+    /* text-align:left; */
+    padding: 18px;
+}
+table{
+    padding: 10px;
+    width: 100%;
+}
+.table1{
+    height: 90%;
+    /* border: 2px solid rebeccapurple; */
+    margin-bottom: 40px;
+    margin-left: 280px;
+    margin-top: 100px;
+    width: 60%;
+    padding:0px 12px;
+    padding-bottom: 10px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+td{
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 30px; 
+}
+table th{
+    text-align: start;
+    padding-right: 5px;
+     
+}
+tr{
+    padding: 5px;
+}
+.forms{
+    padding: 10px;
+    width: 60%;
+    margin-left: 280px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+#btn{
+    /* width: 100%; */
+    width: 97%;
+    height: 100%;
+    text-align: center;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    margin: 8px;
+}
+input{
+    width: 95%;
+    height: 100%;
+    padding: 5px;
+    margin: 8px;
+    font-weight: bold;
+}
+label{
+    padding-left: 8px;
+}
+th{
+    padding: 4px;
+}
